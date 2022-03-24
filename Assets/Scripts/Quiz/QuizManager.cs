@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System.Linq;
@@ -60,7 +60,7 @@ public class QuizManager : MonoBehaviour
 
     void ShowResults()
     {
-        Result.text = "��������� �����: " + CorrectAnswers.ToString() + "/" + (CorrectAnswers+IncorrectAnswers).ToString();
+        Result.text = "Количество правильных ответов: " + CorrectAnswers.ToString() + "/" + (CorrectAnswers+IncorrectAnswers).ToString();
     }
 
     public void UserSelect(int ButtonIndex)
@@ -69,11 +69,11 @@ public class QuizManager : MonoBehaviour
         Animator.SetInteger("TrueAnswer", CurrentQuestion.AnswerIndex);
         if (CurrentQuestion.AnswerIndex == ButtonIndex)
         {
-            CorrectAnswers = CorrectAnswers + 1;
+            CorrectAnswers++;
         }
         else 
         {
-            IncorrectAnswers = IncorrectAnswers + 1;
+            IncorrectAnswers++;
         }
         StartCoroutine(NextQuestion());
     }

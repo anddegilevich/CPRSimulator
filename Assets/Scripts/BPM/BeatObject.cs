@@ -9,6 +9,9 @@ public class BeatObject : MonoBehaviour
     public KeyCode KeyToPress;
     private SpriteRenderer SR;
     private bool Hit;
+    private float Depth = 5;
+    private AudioSource AudioSource;
+    public AudioClip BeatSound;
 
     public GameObject NormalEffect, GreatEffect, PerfectEffect, MissEffect;
 
@@ -45,6 +48,12 @@ public class BeatObject : MonoBehaviour
                     SR.color = new Color(1f, 1f, 0.4f);
                     Instantiate(PerfectEffect, new Vector3(0, -7, 0), transform.rotation);
                 }
+                BeatScroller.instance.DepthScore(Depth);
+                AudioSource.PlayOneShot(BeatSound, 1);
+            }
+            else
+            {
+
             }
         }
     }

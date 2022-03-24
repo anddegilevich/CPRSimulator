@@ -1,4 +1,4 @@
-using System.Collections;
+Ôªøusing System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -19,6 +19,7 @@ public class BeatScroller : MonoBehaviour
     public List<float> ButtonPressTime;
     public List<float> TimeBetween;
     public List<int> ButtonPressClass;
+    public List<float> Depth;
 
     public GameObject BeatSprite;
     public TMP_Text ScoreText;
@@ -31,21 +32,24 @@ public class BeatScroller : MonoBehaviour
     private int NumBeatsPassed = 0;
 
     public GameObject ResultsUI, ScoreUI;
-    public TMP_Text ResultText;
+    public TMP_Text FreqResultText;
+    public TMP_Text DepthResultText;
     private double MeanFreq;
+    private double MeanDepth;
 
+    public TMP_Text BPMLevelText;
+    public TMP_Text DepthLevelText;
 
-    // Start is called before the first frame update
     void Start()
     {
         instance = this;
         BeatScrollerGO = gameObject;
         Speed = Tempo * 8 / 60f;
         time = 1 / (Tempo / 60f);
-        ScoreText.text = "Õ‡ÊÏËÚÂ œÓ·ÂÎ, ˜ÚÓ·˚ Ì‡˜‡Ú¸.";
+        ScoreText.text = "–ù–∞–∂–º–∏—Ç–µ –ø—Ä–æ–±–µ–ª, —á—Ç–æ–±—ã –Ω–∞—á–∞—Ç—å.";
+        BPMLevelText.enabled = false;
+        DepthLevelText.enabled = false;
     }
-
-    // Update is called once per frame
     void Update()
     {
         if(!Started)
@@ -53,7 +57,9 @@ public class BeatScroller : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.Space))
             {
                 Started = true;
-                ScoreText.text = "Œ˜ÍË: " + Score;
+                ScoreText.text = "–û—á–∫–∏: " + Score;
+                BPMLevelText.enabled = true;
+                DepthLevelText.enabled = true;
             }
         }
         else
@@ -94,11 +100,21 @@ public class BeatScroller : MonoBehaviour
     public void BeatHit(int Multiplier)
     {
         Score += ScorePerBeat * Multiplier;
-        ScoreText.text = "Œ˜ÍË: " + Score;
+        ScoreText.text = "–û—á–∫–∏: " + Score;
         ButtonPressTime.Add(NumBeats * time - timeLeft);
         ButtonPressClass.Add(Multiplier);
-        TimeBetween.Add(0);
+        if (NumBeatsPassed > 0)
+        { 
+            TimeBetween.Add(ButtonPressTime[NumBeatsPassed] - ButtonPressTime[NumBeatsPassed-1]);
+            BPMLevelText.text = "BPM: " + Math.Round(60 / TimeBetween[NumBeatsPassed-1], 2); ;
+        }
         NumBeatsPassed++;
+    }
+
+    public void DepthScore(float CurrentDepth)
+    {
+        DepthLevelText.text = "–ì–ª—É–±–∏–Ω–∞: " + (Math.Round(CurrentDepth, 2));
+        Depth.Add(CurrentDepth);
     }
 
     public void BeatMiss()
@@ -111,13 +127,9 @@ public class BeatScroller : MonoBehaviour
         ScoreUI.SetActive(false);
         ResultsUI.SetActive(true);
         gameObject.SetActive(false);
-
-        TimeBetween.RemoveAt(TimeBetween.Count - 1);
-        for (int i = 0; i < ButtonPressTime.Count - 1; i++)
-        {
-            TimeBetween[i] = ButtonPressTime[i + 1] - ButtonPressTime[i];
-        }
         MeanFreq = Math.Round(60 / TimeBetween.Average(), 2);
-        ResultText.text = "—Â‰Ìˇˇ ˜‡ÒÚÓÚ‡: " + MeanFreq;
+        MeanDepth = Math.Round(Depth.Average(), 2);
+        FreqResultText.text = "–°—Ä–µ–¥–Ω—è—è —á–∞—Å—Ç–æ—Ç–∞: " + MeanFreq;
+        DepthResultText.text = "–°—Ä–µ–¥–Ω—è—è –≥–ª—É–±–∏–Ω–∞: " + MeanDepth;
     }
 }

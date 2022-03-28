@@ -17,13 +17,15 @@ public class Pointer : MonoBehaviour
     void Start()
     {
         Range = YHigh - YLow;
+        Debug.Log(X);
+        Debug.Log(Range);
         CurrentPosition = new Vector2(X, YLow + Range * Percent); 
         transform.position = CurrentPosition;
     }
 
     void FixedUpdate()
     {
-        transform.position = Vector2.Lerp(CurrentPosition, CurrentPosition, progress);
-        progress += speed;
+        //transform.position = Vector2.Lerp(CurrentPosition, CurrentPosition, progress);
+        //progress += speed;
     }
 }

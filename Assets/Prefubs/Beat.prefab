@@ -98,6 +98,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CanBePressed: 0
   KeyToPress: 32
+  BeatSound: {fileID: 8300000, guid: 7d7c3d6b47066c343946bc9e5a854747, type: 3}
   NormalEffect: {fileID: 222403564592643239, guid: 81b9255be0749a449900ffbaed7b3d86, type: 3}
   GreatEffect: {fileID: 8000720921941328787, guid: 1bda95425d4836b40bf4e04a1c42e143, type: 3}
   PerfectEffect: {fileID: 4355738823404614932, guid: d080ce173ad82454196e7a2d10731e5b, type: 3}
@@ -117,7 +118,7 @@ BoxCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
+    border: {x: 0.48999998, y: 0.41, z: 0.51, w: 0.41}
     pivot: {x: 0.5, y: 0.5}
     oldSize: {x: 1, y: 10.01}
     newSize: {x: 1, y: 10.01}

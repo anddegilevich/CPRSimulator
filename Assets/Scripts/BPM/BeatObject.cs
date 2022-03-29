@@ -9,7 +9,7 @@ public class BeatObject : MonoBehaviour
     public KeyCode KeyToPress;
     private SpriteRenderer SR;
     private bool Hit;
-    private float Depth = 5;
+    private float Depth = 0;
     private AudioSource AudioSource;
     public AudioClip BeatSound;
 

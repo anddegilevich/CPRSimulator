@@ -41,6 +41,13 @@ public class BeatScroller : MonoBehaviour
     public TMP_Text BPMLevelText;
     public TMP_Text DepthLevelText;
 
+    public GameObject BPMPointer;
+    public GameObject DepthPointer;
+    private double BPMHigh = 120;
+    private double BPMLow = 80;
+    private double DepthHigh = 2;
+    private double DepthLow = 8;
+
     void Start()
     {
         instance = this;
@@ -96,9 +103,13 @@ public class BeatScroller : MonoBehaviour
         if (NumBeatsPressed > 0)
         {
             TimeBetween.Add(ButtonPressTime[NumBeatsPressed] - ButtonPressTime[NumBeatsPressed - 1]);
-            BPMLevelText.text = Math.Round(60 / TimeBetween[NumBeatsPressed - 1], 0).ToString();
+            double CurrentBPM = Math.Round(60 / TimeBetween[NumBeatsPressed - 1], 0);
+            BPMLevelText.text = CurrentBPM.ToString();
+            double PercentBPM = (CurrentBPM - BPMLow)/(BPMHigh - BPMLow);
+            BPMPointer.GetComponent<Pointer>().ChangeDestination(PercentBPM);
         }
-        else BPMLevelText.text = "110";
+        else 
+            BPMLevelText.text = "110";
         NumBeatsPressed++;
         NumBeatsPassed++;
     }
@@ -107,6 +118,9 @@ public class BeatScroller : MonoBehaviour
     {
         DepthLevelText.text = Math.Round(CurrentDepth, 2).ToString();
         Depth.Add(CurrentDepth);
+        double PercentDepth = (CurrentDepth - DepthLow) / (DepthHigh - DepthLow);
+        DepthPointer.GetComponent<Pointer>().ChangeDestination(PercentDepth);
+
     }
 
     public void BeatMiss()

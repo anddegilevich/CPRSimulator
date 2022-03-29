@@ -18,6 +18,7 @@ public class QuizManager : MonoBehaviour
     public TMP_Text QuestionNumber;
     public Animator Animator;
     public GameObject Test;
+    public GameObject EventSystem;
 
     public GameObject Results;
     public TMP_Text Result;
@@ -56,6 +57,7 @@ public class QuizManager : MonoBehaviour
         Answer3Text.text = CurrentQuestion.Answer3;
         Answer4Text.text = CurrentQuestion.Answer4;
         QuestionNumber.text = (1 + CorrectAnswers + IncorrectAnswers).ToString() + "/5";
+        EventSystem.SetActive(true);
     }
 
     void ShowResults()
@@ -75,6 +77,7 @@ public class QuizManager : MonoBehaviour
         {
             IncorrectAnswers++;
         }
+        EventSystem.SetActive(false);
         StartCoroutine(NextQuestion());
     }
 

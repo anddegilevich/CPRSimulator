@@ -62,6 +62,7 @@ public class QuizManager : MonoBehaviour
 
     void ShowResults()
     {
+        EventSystem.SetActive(true);
         Result.text = "Количество правильных ответов: " + CorrectAnswers.ToString() + "/" + (CorrectAnswers+IncorrectAnswers).ToString();
     }
 

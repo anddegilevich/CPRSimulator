@@ -43,10 +43,11 @@ public class BeatScroller : MonoBehaviour
 
     public GameObject BPMPointer;
     public GameObject DepthPointer;
-    private double BPMHigh = 120;
-    private double BPMLow = 80;
-    private double DepthHigh = 2;
-    private double DepthLow = 8;
+    private double IdealDepth = 5;
+    private double BPMHigh;
+    private double BPMLow;
+    private double DepthHigh;
+    private double DepthLow;
 
     void Start()
     {
@@ -55,7 +56,11 @@ public class BeatScroller : MonoBehaviour
         Speed = Tempo * 8 / 60f;
         time = 1 / (Tempo / 60f);
         ScoreText.text = "Очки: " + Score;
-    }
+        BPMHigh = Tempo + 30;
+        BPMLow = Tempo - 30;
+        DepthHigh = IdealDepth + 3;
+        DepthLow = IdealDepth - 3;
+}
     void Update()
     {
         

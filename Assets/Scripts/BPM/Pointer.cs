@@ -7,7 +7,7 @@ public class Pointer : MonoBehaviour
     private float X;
     private float Y;
     private float Percent = 0.5f;
-    private float speed = 3;
+    private float speed = 2;
     private float XScale;
     private float  YScale;
     public bool Direction = true;

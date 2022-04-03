@@ -27,7 +27,7 @@ public class BPMModeManager : MonoBehaviour
     {
         ResultsUI.SetActive(true);
         Button.SetActive(false);
-        //Results.instance.ShowResults();
+        ResultsUI.GetComponent<Results>().ShowResults();
         ScoreUI.SetActive(false);
     }
 }

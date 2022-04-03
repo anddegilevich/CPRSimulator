@@ -1,0 +1,804 @@
+fileFormatVersion: 2
+guid: 4956ece49726c0a4aba2c57129124e63
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1639829123546791440
+    second: PerfectEffect_0
+  - first:
+      213: -4055267237074243633
+    second: PerfectEffect_1
+  - first:
+      213: 371012006474762696
+    second: PerfectEffect_2
+  - first:
+      213: 6483656667525554452
+    second: PerfectEffect_3
+  - first:
+      213: -2257127985663252617
+    second: PerfectEffect_4
+  - first:
+      213: 6389847412140040497
+    second: PerfectEffect_5
+  - first:
+      213: 2931334182614133911
+    second: PerfectEffect_6
+  - first:
+      213: 6053736308389486188
+    second: PerfectEffect_7
+  - first:
+      213: 6328839178871172569
+    second: PerfectEffect_8
+  - first:
+      213: 102412512924949514
+    second: PerfectEffect_9
+  - first:
+      213: -4669744462469774046
+    second: PerfectEffect_10
+  - first:
+      213: 2238986445658840861
+    second: PerfectEffect_11
+  - first:
+      213: -60940353529123784
+    second: PerfectEffect_12
+  - first:
+      213: 819719888828275876
+    second: PerfectEffect_13
+  - first:
+      213: -1368655132738350652
+    second: PerfectEffect_14
+  - first:
+      213: -5196926424408531265
+    second: PerfectEffect_15
+  - first:
+      213: -6663412967559633090
+    second: PerfectEffect_16
+  - first:
+      213: 4849916506916640143
+    second: PerfectEffect_17
+  - first:
+      213: 1091484790536656
+    second: PerfectEffect_18
+  - first:
+      213: -2195726538214610216
+    second: PerfectEffect_19
+  - first:
+      213: -747820429035534502
+    second: PerfectEffect_20
+  - first:
+      213: -1750334089477512868
+    second: PerfectEffect_21
+  - first:
+      213: -4033162520154626032
+    second: PerfectEffect_22
+  - first:
+      213: -617014445362888721
+    second: PerfectEffect_23
+  - first:
+      213: 2033008807284876370
+    second: PerfectEffect_24
+  - first:
+      213: 2498065300307451504
+    second: PerfectEffect_25
+  - first:
+      213: -3758151611646374522
+    second: PerfectEffect_26
+  - first:
+      213: -2554474375354509374
+    second: PerfectEffect_27
+  - first:
+      213: 801589085794308145
+    second: PerfectEffect_28
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PerfectEffect_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8640
+        width: 1500
+        height: 2160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f147aea9182e39e0800000000000000
+      internalID: -1639829123546791440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PerfectEffect_1
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 8640
+        width: 1500
+        height: 2160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcfe8e00febc8b7c0800000000000000
+      internalID: -4055267237074243633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PerfectEffect_2
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 8640
+        width: 1500
+        height: 2160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c945554479162500800000000000000
+      internalID: 371012006474762696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PerfectEffect_3
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 8640
+        width: 1500
+        height: 2160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 411247123639af950800000000000000
+      internalID: 6483656667525554452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PerfectEffect_4
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 8640
+        width: 1500
+        height: 2160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 777e2f94e021da0e0800000000000000
+      internalID: -2257127985663252617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PerfectEffect_5
+      rect:
+        serializedVersion: 2
+        x: 7500
+        y: 8640
+        width: 1500
+        height: 2160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1316e81dd5c4da850800000000000000
+      internalID: 6389847412140040497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PerfectEffect_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6480
+        width: 1500
+        height: 2160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79ceca088e03ea820800000000000000
+      internalID: 2931334182614133911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PerfectEffect_7
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 6480
+        width: 1500
+        height: 2160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6e90713911330450800000000000000
+      internalID: 6053736308389486188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PerfectEffect_8
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 6480
+        width: 1500
+        height: 2160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dde03993bd84d750800000000000000
+      internalID: 6328839178871172569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PerfectEffect_9
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 6480
+        width: 1500
+        height: 2160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0c527d43a7db6100800000000000000
+      internalID: 102412512924949514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PerfectEffect_10
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 6480
+        width: 1500
+        height: 2160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22544aa172cb13fb0800000000000000
+      internalID: -4669744462469774046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PerfectEffect_11
+      rect:
+        serializedVersion: 2
+        x: 7500
+        y: 6480
+        width: 1500
+        height: 2160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1fd8664f4a721f10800000000000000
+      internalID: 2238986445658840861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PerfectEffect_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4320
+        width: 1500
+        height: 2160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83ce863421f772ff0800000000000000
+      internalID: -60940353529123784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PerfectEffect_13
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 4320
+        width: 1500
+        height: 2160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ac9ee455ea306b00800000000000000
+      internalID: 819719888828275876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PerfectEffect_14
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 4320
+        width: 1500
+        height: 2160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c19d11886f810de0800000000000000
+      internalID: -1368655132738350652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PerfectEffect_15
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 4320
+        width: 1500
+        height: 2160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbed94593fec0e7b0800000000000000
+      internalID: -5196926424408531265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PerfectEffect_16
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 4320
+        width: 1500
+        height: 2160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3760e4d53dc683a0800000000000000
+      internalID: -6663412967559633090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PerfectEffect_17
+      rect:
+        serializedVersion: 2
+        x: 7500
+        y: 4320
+        width: 1500
+        height: 2160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f85d119fd5d5e4340800000000000000
+      internalID: 4849916506916640143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PerfectEffect_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2160
+        width: 1500
+        height: 2160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d9b73b13b0e30000800000000000000
+      internalID: 1091484790536656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PerfectEffect_19
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 2160
+        width: 1500
+        height: 2160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dae1d1d8563781e0800000000000000
+      internalID: -2195726538214610216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PerfectEffect_20
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 2160
+        width: 1500
+        height: 2160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a578e8b28453f95f0800000000000000
+      internalID: -747820429035534502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PerfectEffect_21
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 2160
+        width: 1500
+        height: 2160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c51af665b6095b7e0800000000000000
+      internalID: -1750334089477512868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PerfectEffect_22
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 2160
+        width: 1500
+        height: 2160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 018a3c87e045708c0800000000000000
+      internalID: -4033162520154626032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PerfectEffect_23
+      rect:
+        serializedVersion: 2
+        x: 7500
+        y: 2160
+        width: 1500
+        height: 2160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fef3cda81acef67f0800000000000000
+      internalID: -617014445362888721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PerfectEffect_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1500
+        height: 2160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 254a4772db2b63c10800000000000000
+      internalID: 2033008807284876370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PerfectEffect_25
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 0
+        width: 1500
+        height: 2160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07e1e82c729eaa220800000000000000
+      internalID: 2498065300307451504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PerfectEffect_26
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 0
+        width: 1500
+        height: 2160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68d81cf450d58dbc0800000000000000
+      internalID: -3758151611646374522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PerfectEffect_27
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 0
+        width: 1500
+        height: 2160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c7182df61fac8cd0800000000000000
+      internalID: -2554474375354509374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PerfectEffect_28
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 0
+        width: 1500
+        height: 2160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 130999ac601df1b00800000000000000
+      internalID: 801589085794308145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 3067b6c8c1b119e4cadcc497768aedef
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

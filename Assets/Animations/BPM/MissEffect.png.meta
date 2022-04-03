@@ -1,0 +1,804 @@
+fileFormatVersion: 2
+guid: 458456820062f564ebf0287202af784c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1244844108677431417
+    second: MissEffect_0
+  - first:
+      213: -7713946705463754079
+    second: MissEffect_1
+  - first:
+      213: 5395159260112480337
+    second: MissEffect_2
+  - first:
+      213: -8955634395752711255
+    second: MissEffect_3
+  - first:
+      213: 7799917691206577545
+    second: MissEffect_4
+  - first:
+      213: 8475891219033895685
+    second: MissEffect_5
+  - first:
+      213: 5694197167159785593
+    second: MissEffect_6
+  - first:
+      213: 1548691084793161182
+    second: MissEffect_7
+  - first:
+      213: -9180653086253380145
+    second: MissEffect_8
+  - first:
+      213: -4549967012254860446
+    second: MissEffect_9
+  - first:
+      213: 5839205511963205084
+    second: MissEffect_10
+  - first:
+      213: -341239466391304118
+    second: MissEffect_11
+  - first:
+      213: -8126973330457349985
+    second: MissEffect_12
+  - first:
+      213: -504694927453290411
+    second: MissEffect_13
+  - first:
+      213: 4396428189224927627
+    second: MissEffect_14
+  - first:
+      213: -47248653942890798
+    second: MissEffect_15
+  - first:
+      213: -3506871136245211545
+    second: MissEffect_16
+  - first:
+      213: 6626243675773246827
+    second: MissEffect_17
+  - first:
+      213: -7251439457993880230
+    second: MissEffect_18
+  - first:
+      213: -5433188209336426442
+    second: MissEffect_19
+  - first:
+      213: 4824166467165620271
+    second: MissEffect_20
+  - first:
+      213: 6269255881281251676
+    second: MissEffect_21
+  - first:
+      213: 3820871558683897013
+    second: MissEffect_22
+  - first:
+      213: -8860194702335159752
+    second: MissEffect_23
+  - first:
+      213: -5689049665721541639
+    second: MissEffect_24
+  - first:
+      213: 1241212041545342164
+    second: MissEffect_25
+  - first:
+      213: -6194253382947744463
+    second: MissEffect_26
+  - first:
+      213: 4605484858484871860
+    second: MissEffect_27
+  - first:
+      213: 8991618834219081828
+    second: MissEffect_28
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MissEffect_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8640
+        width: 1500
+        height: 2160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 970c4721f13964110800000000000000
+      internalID: 1244844108677431417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MissEffect_1
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 8640
+        width: 1500
+        height: 2160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a2c984775e82f490800000000000000
+      internalID: -7713946705463754079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MissEffect_2
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 8640
+        width: 1500
+        height: 2160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 158e9a523c47fda40800000000000000
+      internalID: 5395159260112480337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MissEffect_3
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 8640
+        width: 1500
+        height: 2160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9abb3ee47f137b380800000000000000
+      internalID: -8955634395752711255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MissEffect_4
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 8640
+        width: 1500
+        height: 2160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98d27ad70dfde3c60800000000000000
+      internalID: 7799917691206577545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MissEffect_5
+      rect:
+        serializedVersion: 2
+        x: 7500
+        y: 8640
+        width: 1500
+        height: 2160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5033e51182a60a570800000000000000
+      internalID: 8475891219033895685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MissEffect_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6480
+        width: 1500
+        height: 2160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9783895872ad50f40800000000000000
+      internalID: 5694197167159785593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MissEffect_7
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 6480
+        width: 1500
+        height: 2160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed529e7165e0e7510800000000000000
+      internalID: 1548691084793161182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MissEffect_8
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 6480
+        width: 1500
+        height: 2160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcd06c3c8a4c79080800000000000000
+      internalID: -9180653086253380145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MissEffect_9
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 6480
+        width: 1500
+        height: 2160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26bbdceeb154bd0c0800000000000000
+      internalID: -4549967012254860446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MissEffect_10
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 6480
+        width: 1500
+        height: 2160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cddd117c976090150800000000000000
+      internalID: 5839205511963205084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MissEffect_11
+      rect:
+        serializedVersion: 2
+        x: 7500
+        y: 6480
+        width: 1500
+        height: 2160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a480766638ca34bf0800000000000000
+      internalID: -341239466391304118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MissEffect_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4320
+        width: 1500
+        height: 2160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f90340380d0373f80800000000000000
+      internalID: -8126973330457349985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MissEffect_13
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 4320
+        width: 1500
+        height: 2160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 550843133a6fef8f0800000000000000
+      internalID: -504694927453290411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MissEffect_14
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 4320
+        width: 1500
+        height: 2160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8104431520430d30800000000000000
+      internalID: 4396428189224927627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MissEffect_15
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 4320
+        width: 1500
+        height: 2160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2de5e9d7993285ff0800000000000000
+      internalID: -47248653942890798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MissEffect_16
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 4320
+        width: 1500
+        height: 2160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76e98032847155fc0800000000000000
+      internalID: -3506871136245211545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MissEffect_17
+      rect:
+        serializedVersion: 2
+        x: 7500
+        y: 4320
+        width: 1500
+        height: 2160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6d94a9048525fb50800000000000000
+      internalID: 6626243675773246827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MissEffect_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2160
+        width: 1500
+        height: 2160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5d06049b36bd5b90800000000000000
+      internalID: -7251439457993880230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MissEffect_19
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 2160
+        width: 1500
+        height: 2160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63069a02c107994b0800000000000000
+      internalID: -5433188209336426442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MissEffect_20
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 2160
+        width: 1500
+        height: 2160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2802c4a7d1e2f240800000000000000
+      internalID: 4824166467165620271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MissEffect_21
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 2160
+        width: 1500
+        height: 2160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c592cc1120fd00750800000000000000
+      internalID: 6269255881281251676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MissEffect_22
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 2160
+        width: 1500
+        height: 2160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bc2fb35076760530800000000000000
+      internalID: 3820871558683897013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MissEffect_23
+      rect:
+        serializedVersion: 2
+        x: 7500
+        y: 2160
+        width: 1500
+        height: 2160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 832d38e8cd34a0580800000000000000
+      internalID: -8860194702335159752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MissEffect_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1500
+        height: 2160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fbdc1d887f6c01b0800000000000000
+      internalID: -5689049665721541639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MissEffect_25
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 0
+        width: 1500
+        height: 2160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dc5f3b86cba93110800000000000000
+      internalID: 1241212041545342164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MissEffect_26
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 0
+        width: 1500
+        height: 2160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13553a4ed57990aa0800000000000000
+      internalID: -6194253382947744463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MissEffect_27
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 0
+        width: 1500
+        height: 2160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b25e60f318f9ef30800000000000000
+      internalID: 4605484858484871860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MissEffect_28
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 0
+        width: 1500
+        height: 2160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4602759a0b5a8cc70800000000000000
+      internalID: 8991618834219081828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 2fbefc1b43df5e3409042328b66ad113
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

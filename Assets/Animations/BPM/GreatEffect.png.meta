@@ -1,0 +1,804 @@
+fileFormatVersion: 2
+guid: 2c88e80bc70b01044b0bb6b63976d004
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6620396546550088741
+    second: GreatEffect_0
+  - first:
+      213: -3121896642408626426
+    second: GreatEffect_1
+  - first:
+      213: -3228433193274893354
+    second: GreatEffect_2
+  - first:
+      213: 7792628344807590568
+    second: GreatEffect_3
+  - first:
+      213: -2621380074667000056
+    second: GreatEffect_4
+  - first:
+      213: -8083964556000072980
+    second: GreatEffect_5
+  - first:
+      213: 3915191979006491553
+    second: GreatEffect_6
+  - first:
+      213: -4506461801427541597
+    second: GreatEffect_7
+  - first:
+      213: -7963306707942458329
+    second: GreatEffect_8
+  - first:
+      213: -5624990541858171117
+    second: GreatEffect_9
+  - first:
+      213: -3894031268654244493
+    second: GreatEffect_10
+  - first:
+      213: -6985144178014158935
+    second: GreatEffect_11
+  - first:
+      213: 7172631461317292412
+    second: GreatEffect_12
+  - first:
+      213: 7882007212405765178
+    second: GreatEffect_13
+  - first:
+      213: 6613781995948669258
+    second: GreatEffect_14
+  - first:
+      213: -1102248801309957739
+    second: GreatEffect_15
+  - first:
+      213: 4988460548901390028
+    second: GreatEffect_16
+  - first:
+      213: 254160947888801299
+    second: GreatEffect_17
+  - first:
+      213: 5651226840941304539
+    second: GreatEffect_18
+  - first:
+      213: 2250283731235411416
+    second: GreatEffect_19
+  - first:
+      213: 1248919423171408798
+    second: GreatEffect_20
+  - first:
+      213: 3929327391369778172
+    second: GreatEffect_21
+  - first:
+      213: -8385848489335511309
+    second: GreatEffect_22
+  - first:
+      213: 6487093463290933634
+    second: GreatEffect_23
+  - first:
+      213: 1296505543002527190
+    second: GreatEffect_24
+  - first:
+      213: -6764299927996175552
+    second: GreatEffect_25
+  - first:
+      213: 3133934273934621514
+    second: GreatEffect_26
+  - first:
+      213: -7346898042685866530
+    second: GreatEffect_27
+  - first:
+      213: 5751623134233837292
+    second: GreatEffect_28
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GreatEffect_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8640
+        width: 1500
+        height: 2160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdbb8a2da60af14a0800000000000000
+      internalID: -6620396546550088741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreatEffect_1
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 8640
+        width: 1500
+        height: 2160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 607cfb35b8bcca4d0800000000000000
+      internalID: -3121896642408626426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreatEffect_2
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 8640
+        width: 1500
+        height: 2160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6db15cd9d1d4233d0800000000000000
+      internalID: -3228433193274893354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreatEffect_3
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 8640
+        width: 1500
+        height: 2160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aa85e6413af42c60800000000000000
+      internalID: 7792628344807590568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreatEffect_4
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 8640
+        width: 1500
+        height: 2160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80fbf24f5bcfe9bd0800000000000000
+      internalID: -2621380074667000056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreatEffect_5
+      rect:
+        serializedVersion: 2
+        x: 7500
+        y: 8640
+        width: 1500
+        height: 2160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cea64c6211dffcf80800000000000000
+      internalID: -8083964556000072980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreatEffect_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6480
+        width: 1500
+        height: 2160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1abf3208c5e855630800000000000000
+      internalID: 3915191979006491553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreatEffect_7
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 6480
+        width: 1500
+        height: 2160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a16b0c2ed4d571c0800000000000000
+      internalID: -4506461801427541597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreatEffect_8
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 6480
+        width: 1500
+        height: 2160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72cba939db6ac7190800000000000000
+      internalID: -7963306707942458329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreatEffect_9
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 6480
+        width: 1500
+        height: 2160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3179c9797e400f1b0800000000000000
+      internalID: -5624990541858171117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreatEffect_10
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 6480
+        width: 1500
+        height: 2160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37d999f413f95f9c0800000000000000
+      internalID: -3894031268654244493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreatEffect_11
+      rect:
+        serializedVersion: 2
+        x: 7500
+        y: 6480
+        width: 1500
+        height: 2160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aff3940168cf0f90800000000000000
+      internalID: -6985144178014158935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreatEffect_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4320
+        width: 1500
+        height: 2160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c71bb94df4e4a8360800000000000000
+      internalID: 7172631461317292412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreatEffect_13
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 4320
+        width: 1500
+        height: 2160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a34338c8cc3826d60800000000000000
+      internalID: 7882007212405765178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreatEffect_14
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 4320
+        width: 1500
+        height: 2160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a49f46a1fafd8cb50800000000000000
+      internalID: 6613781995948669258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreatEffect_15
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 4320
+        width: 1500
+        height: 2160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 591e1df1e8604b0f0800000000000000
+      internalID: -1102248801309957739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreatEffect_16
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 4320
+        width: 1500
+        height: 2160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc6415170729a3540800000000000000
+      internalID: 4988460548901390028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreatEffect_17
+      rect:
+        serializedVersion: 2
+        x: 7500
+        y: 4320
+        width: 1500
+        height: 2160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31640b61906f68300800000000000000
+      internalID: 254160947888801299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreatEffect_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2160
+        width: 1500
+        height: 2160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bda957fced03d6e40800000000000000
+      internalID: 5651226840941304539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreatEffect_19
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 2160
+        width: 1500
+        height: 2160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d5902c812d9a3f10800000000000000
+      internalID: 2250283731235411416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreatEffect_20
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 2160
+        width: 1500
+        height: 2160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e93b73b299d055110800000000000000
+      internalID: 1248919423171408798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreatEffect_21
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 2160
+        width: 1500
+        height: 2160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf3dec8a176c78630800000000000000
+      internalID: 3929327391369778172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreatEffect_22
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 2160
+        width: 1500
+        height: 2160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f629e4aa3b7f9b80800000000000000
+      internalID: -8385848489335511309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreatEffect_23
+      rect:
+        serializedVersion: 2
+        x: 7500
+        y: 2160
+        width: 1500
+        height: 2160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 281f6308229c60a50800000000000000
+      internalID: 6487093463290933634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreatEffect_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1500
+        height: 2160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d59df31cec1ef110800000000000000
+      internalID: 1296505543002527190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreatEffect_25
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 0
+        width: 1500
+        height: 2160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04b6695ed016022a0800000000000000
+      internalID: -6764299927996175552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreatEffect_26
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 0
+        width: 1500
+        height: 2160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4b7b4b2e98fd7b20800000000000000
+      internalID: 3133934273934621514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreatEffect_27
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 0
+        width: 1500
+        height: 2160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edd32bcd7239a0a90800000000000000
+      internalID: -7346898042685866530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreatEffect_28
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 0
+        width: 1500
+        height: 2160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cee3de564ced1df40800000000000000
+      internalID: 5751623134233837292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 334a4b90dafbc354193822490e2c140c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

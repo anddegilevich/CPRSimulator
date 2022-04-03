@@ -99,10 +99,9 @@ MonoBehaviour:
   CanBePressed: 0
   KeyToPress: 32
   BeatSound: {fileID: 8300000, guid: 7d7c3d6b47066c343946bc9e5a854747, type: 3}
-  NormalEffect: {fileID: 222403564592643239, guid: 81b9255be0749a449900ffbaed7b3d86, type: 3}
-  GreatEffect: {fileID: 8000720921941328787, guid: 1bda95425d4836b40bf4e04a1c42e143, type: 3}
-  PerfectEffect: {fileID: 4355738823404614932, guid: d080ce173ad82454196e7a2d10731e5b, type: 3}
-  MissEffect: {fileID: 5554392623586826538, guid: 333fbe11f44170744ba0c024770ca7fb, type: 3}
+  GreatEffect: {fileID: 5257858423568739010, guid: adc116d5bd7261e41a1200857c425bb2, type: 3}
+  PerfectEffect: {fileID: 5022122800488527116, guid: 994b7d842d9925848906e9b21e4117d7, type: 3}
+  MissEffect: {fileID: 6278357094050717554, guid: 0d987b388d9715b4db645d54a6970c35, type: 3}
 --- !u!61 &-7577844739900407620
 BoxCollider2D:
   m_ObjectHideFlags: 0

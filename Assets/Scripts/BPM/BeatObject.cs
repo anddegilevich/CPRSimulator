@@ -13,7 +13,7 @@ public class BeatObject : MonoBehaviour
     private AudioSource AudioSource;
     public AudioClip BeatSound;
 
-    public GameObject NormalEffect, GreatEffect, PerfectEffect, MissEffect;
+    public GameObject GreatEffect, PerfectEffect, MissEffect;
 
     // Start is called before the first frame update
     void Start()
@@ -30,25 +30,18 @@ public class BeatObject : MonoBehaviour
             if(CanBePressed)
             {
                 Hit = true;
-                if (Mathf.Abs(transform.position.x) > 1)
+                if (Mathf.Abs(transform.position.x) > 0.5)
                 {
                     BeatScroller.instance.BeatHit(1);
-                    Instantiate(NormalEffect, new Vector3(0, -8, 0), transform.rotation);
-                    SR.color = new Color(0.2f, 0.6f, 0.99f);
-                    GetComponent<BoxCollider2D>().enabled = false;
-                }
-                else if (Mathf.Abs(transform.position.x) > 0.25)
-                {
-                    BeatScroller.instance.BeatHit(2);
                     SR.color = new Color(0.4f, 1f, 0.4f);
-                    Instantiate(GreatEffect, new Vector3(0, -8, 0), transform.rotation);
+                    Instantiate(GreatEffect, new Vector3(0, 0, 0), transform.rotation);
                     GetComponent<BoxCollider2D>().enabled = false;
                 }
                 else
                 {
-                    BeatScroller.instance.BeatHit(3);
+                    BeatScroller.instance.BeatHit(2);
                     SR.color = new Color(1f, 1f, 0.4f);
-                    Instantiate(PerfectEffect, new Vector3(0, -8, 0), transform.rotation);
+                    Instantiate(PerfectEffect, new Vector3(0, 0, 0), transform.rotation);
                     GetComponent<BoxCollider2D>().enabled = false;
                 }
                 BeatScroller.instance.DepthScore(Depth);
@@ -78,7 +71,7 @@ public class BeatObject : MonoBehaviour
             {
                 BeatScroller.instance.BeatMiss();
                 SR.color = new Color(1f, 0.42f, 0.42f);
-                Instantiate(MissEffect, new Vector3(0, -8, 0), transform.rotation);
+                Instantiate(MissEffect, new Vector3(0, 0, 0), transform.rotation);
                 GetComponent<BoxCollider2D>().enabled = false;
             }
             

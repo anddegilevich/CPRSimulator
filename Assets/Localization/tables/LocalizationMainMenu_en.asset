@@ -1,0 +1,184 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: LocalizationMainMenu_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: efcbeb458463aee48a63076df2c8abb1, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 51214151680
+    m_Localized: Mode select
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2439044001792
+    m_Localized: Info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2500419252224
+    m_Localized: Options
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2568119513088
+    m_Localized: Quit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2614273634304
+    m_Localized: GAMEMODES
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2691226529792
+    m_Localized: Simulation
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2773036429312
+    m_Localized: Compression training
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2824043360256
+    m_Localized: Quiz
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2952489725952
+    m_Localized: Back
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3014892580864
+    m_Localized: Learn and perfect the CPR algorithm by providing assistance to a
+      virtual patient
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3360972992512
+    m_Localized: Train your compression skills
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3361254010880
+    m_Localized: Answer the CPR test questions to consolidate the theory
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3516753637376
+    m_Localized: Info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3578355380224
+    m_Localized: CPR algorithm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3724610760704
+    m_Localized: The nuances of CPR algorithm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3799525224448
+    m_Localized: Back
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3935131267072
+    m_Localized: Previous
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4029452775424
+    m_Localized: Next
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4251230793728
+    m_Localized: Back
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4293480017920
+    m_Localized: 'Step 1: Make sure you, the victim and others are safe. Eliminate
+      possible risks if it is possible. As possible risks, there may be bare wires,
+      broken glass, moving vehicles, aggressive people, etc.)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4515312562176
+    m_Localized: "Step 2: Check the patient's reaction: gently shake him by the shoulders
+      and ask loudly: \u201CWhat happened to you?\u201D If the patient reacts, leave
+      him in the same position, try to find out the reasons for what is happening
+      and call for help, regularly assess the patient's condition."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4772628918272
+    m_Localized: 'Step 3: If the patient does not react, it is necessary to turn
+      him on his back and open the airways by tilting his head and pulling up his
+      chin. You need to press his forehead with your hand, and pull up his chin with
+      the other hand.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5634629693440
+    m_Localized: 'Step 4: Keeping the airways open, it is necessary to see, hear
+      and/or feel normal breathing, observing the movements of the chest, listening
+      to the sound of breathing and feeling the movement of air on your cheek. The
+      examination should be continued for no more than 10 seconds.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5758021922816
+    m_Localized: "Step 5: Make a decision: is breathing  normal, abnormal or absent?
+      If there are doubts about the nature of breathing, behave as if the breathing
+      is agonal. If the patient is breathing normally, place him in a safe position,
+      call an ambulance, regularly assess the condition and the presence of normal
+      breathing. Lack of consciousness and breathing (or agonal breathing) \u2013
+      signs of circulatory arrest and indications for the beginning of CPR."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5907146207232
+    m_Localized: 'Step 6: If the patient has agonal breathing or it is absent, ask
+      others to call for help (ambulance, resuscitators) and bring an automatic external
+      defibrillator (AED) or do it yourself.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6038989959168
+    m_Localized: 'Step 7.1: Performing chest compression consists of the following
+      steps:\nKneel on the side of the patient and place the base of one palm on
+      the center of the patient''s chest. Place the base of the other palm on top
+      of the first palm, lock the fingers and bend the arms at the elbow joints.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6230543822848
+    m_Localized: 'Step 7.2: Position your body above the chest of the patient and
+      press to a depth of at least 5 cm, but not more than 6 cm. Next, it is necessary
+      to ensure complete decompression of the chest without losing contact of the
+      hands with the chest after each compression. Continue chest compressions with
+      a frequency of 100 to 120/min.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6425134362624
+    m_Localized: 'Step 7.3: After 30 compressions, it is necessary to open the airways
+      as described above. Next, it is necessary to clamp the wings of the nose with
+      the thumb and index fingers of the hand located on the forehead, open the mouth,
+      pulling up the chin and take a normal breath, tightly covering the patient''s
+      mouth with your lips. You need to inhale evenly for 1 sec., while observing
+      the rise of the chest.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6537956945920
+    m_Localized: 'Step 8: As soon as the AED is delivered to the scene of the accident,
+      it is necessary to turn it on and follow its voice and visual commands. It
+      is necessary to apply electrodes to the naked chest.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6790240137216
+    m_Localized: 'Step 9: After some time, an AED performs an automated analysis
+      of the heart rate according to a specially developed computer algorithm. It
+      is necessary to make sure that no one touches the patient during the rhythm
+      analysis.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6938571698176
+    m_Localized: 'Step 10: If defibrillation is indicated, make sure that no one
+      touches the patient and press the discharge button. Immediately after applying
+      the discharge, continue the CPR in a ratio of 30 to 2.'
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 1

@@ -1,0 +1,151 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: LocalizationMainMenu Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: LocalizationMainMenu
+  m_TableCollectionNameGuidString: efcbeb458463aee48a63076df2c8abb1
+  m_Entries:
+  - m_Id: 51214151680
+    m_Key: Main_SelectMode
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2439044001792
+    m_Key: Main_Info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2500419252224
+    m_Key: Main_Options
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2568119513088
+    m_Key: Main_Quit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2614273634304
+    m_Key: GameModes_Title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2691226529792
+    m_Key: GameModes_Mode1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2773036429312
+    m_Key: GameModes_Mode2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2824043360256
+    m_Key: GameModes_Mode3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2952489725952
+    m_Key: GameModes_Back
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3014892580864
+    m_Key: GameModes_Description1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3360972992512
+    m_Key: GameModes_Description2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3361254010880
+    m_Key: GameModes_Description3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3516753637376
+    m_Key: Info_Title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3578355380224
+    m_Key: Info_Algorithm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3724610760704
+    m_Key: Info_Nuances
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3799525224448
+    m_Key: Info_Back
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3935131267072
+    m_Key: Algorithm_Previous
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4029452775424
+    m_Key: Algorithm_Next
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4251230793728
+    m_Key: Algorithm_Back
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4293480017920
+    m_Key: Algorithm_Step1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4515312562176
+    m_Key: Algorithm_Step2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4772628918272
+    m_Key: Algorithm_Step3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5634629693440
+    m_Key: Algorithm_Step4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5758021922816
+    m_Key: Algorithm_Step5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5907146207232
+    m_Key: Algorithm_Step6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6038989959168
+    m_Key: Algorithm_Step7.1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6230543822848
+    m_Key: Algorithm_Step7.2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6425134362624
+    m_Key: Algorithm_Step7.3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6537956945920
+    m_Key: Algorithm_Step8
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6790240137216
+    m_Key: Algorithm_Step9
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6938571698176
+    m_Key: Algorithm_Step10
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    id: 0
+  references:
+    version: 1
+    00000000:
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1649405687212

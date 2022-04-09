@@ -21,4 +21,10 @@ EditorBuildSettings:
     path: Assets/Scenes/BPMTrain.unity
     guid: d764366270f2eb34090009d377265acc
   m_configObjects:
+    Unity.XR.OpenVR.Settings: {fileID: 11400000, guid: 291bbccdfaa8fe74ead8e616dc2fa493, type: 2}
+    com.unity.addressableassets: {fileID: 11400000, guid: 0fbcb4e1a15711a408746e9e745c064d, type: 2}
     com.unity.input.settings: {fileID: 11400000, guid: 9e7be553448fa2546aea5752021cbcf7, type: 2}
+    com.unity.localization.settings: {fileID: 11400000, guid: 620191cac6f43db439713111a9baf5fb, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: a3d83d16808cf0c49bce73861c38c79c, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 5e418ce33c594cc4f804fa34b7ea91bd, type: 2}
+    xr.sdk.mock-hmd.settings: {fileID: 11400000, guid: cd59eaeee1e93f643823550fdf02ce47, type: 2}

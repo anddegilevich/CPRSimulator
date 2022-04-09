@@ -1,0 +1,203 @@
+fileFormatVersion: 2
+guid: 0deb2f2ff5888c24aa0c8cdfb32b27e7
+timeCreated: 1472558996
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: bed.000
+    100002: box_1
+    100004: box_2
+    100006: box_3
+    100008: chair
+    100010: cloth
+    100012: cupboard
+    100014: door
+    100016: door_general
+    100018: door_lock
+    100020: equipment
+    100022: equipment.001
+    100024: equipment_
+    100026: equipment_1
+    100028: equipment_2
+    100030: equipment_3
+    100032: equipment_4
+    100034: //RootNode
+    100036: TV
+    100038: TV_general
+    100040: wall
+    100042: wall.001
+    100044: walls
+    100046: windo_open
+    100048: window
+    100050: window_lock
+    100052: bed
+    400000: bed.000
+    400002: box_1
+    400004: box_2
+    400006: box_3
+    400008: chair
+    400010: cloth
+    400012: cupboard
+    400014: door
+    400016: door_general
+    400018: door_lock
+    400020: equipment
+    400022: equipment.001
+    400024: equipment_
+    400026: equipment_1
+    400028: equipment_2
+    400030: equipment_3
+    400032: equipment_4
+    400034: //RootNode
+    400036: TV
+    400038: TV_general
+    400040: wall
+    400042: wall.001
+    400044: walls
+    400046: windo_open
+    400048: window
+    400050: window_lock
+    400052: bed
+    2300000: bed.000
+    2300002: box_1
+    2300004: box_2
+    2300006: box_3
+    2300008: chair
+    2300010: cloth
+    2300012: cupboard
+    2300014: door
+    2300016: door_general
+    2300018: door_lock
+    2300020: equipment
+    2300022: equipment.001
+    2300024: equipment_
+    2300026: equipment_1
+    2300028: equipment_2
+    2300030: equipment_3
+    2300032: equipment_4
+    2300034: TV
+    2300036: TV_general
+    2300038: wall
+    2300040: wall.001
+    2300042: walls
+    2300044: windo_open
+    2300046: window
+    2300048: window_lock
+    2300050: bed
+    3300000: bed.000
+    3300002: box_1
+    3300004: box_2
+    3300006: box_3
+    3300008: chair
+    3300010: cloth
+    3300012: cupboard
+    3300014: door
+    3300016: door_general
+    3300018: door_lock
+    3300020: equipment
+    3300022: equipment.001
+    3300024: equipment_
+    3300026: equipment_1
+    3300028: equipment_2
+    3300030: equipment_3
+    3300032: equipment_4
+    3300034: TV
+    3300036: TV_general
+    3300038: wall
+    3300040: wall.001
+    3300042: walls
+    3300044: windo_open
+    3300046: window
+    3300048: window_lock
+    3300050: bed
+    4300000: TV_general
+    4300002: TV
+    4300004: door_general
+    4300006: door
+    4300008: door_lock
+    4300010: wall.001
+    4300012: equipment_
+    4300014: equipment
+    4300016: equipment.001
+    4300018: equipment_1
+    4300020: equipment_2
+    4300022: equipment_3
+    4300024: equipment_4
+    4300026: cupboard
+    4300028: box_3
+    4300030: box_2
+    4300032: box_1
+    4300034: chair
+    4300036: cloth
+    4300038: bed.000
+    4300040: wall
+    4300042: walls
+    4300044: window
+    4300046: windo_open
+    4300048: window_lock
+    4300050: bed
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

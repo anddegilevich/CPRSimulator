@@ -5,6 +5,7 @@ using UnityEngine.UI;
 using TMPro;
 using System.Linq;
 using System;
+using UnityEngine.Localization.Settings;
 
 public class BeatScroller : MonoBehaviour
 {
@@ -23,6 +24,7 @@ public class BeatScroller : MonoBehaviour
 
     public GameObject BeatSprite;
     public TMP_Text ScoreText;
+    private string ScoreLocalize;
 
     public static BeatScroller instance;
 
@@ -55,7 +57,8 @@ public class BeatScroller : MonoBehaviour
         BeatScrollerGO = gameObject;
         Speed = Tempo * 8 / 60f;
         time = 1 / (Tempo / 60f);
-        ScoreText.text = "Очки: " + Score;
+        ScoreLocalize = LocalizationSettings.StringDatabase.GetLocalizedString("BPMTrain", "Score");
+        ScoreText.text = ScoreLocalize + Score;
         BPMHigh = Tempo + 30;
         BPMLow = Tempo - 30;
         DepthHigh = IdealDepth + 3;
@@ -102,7 +105,7 @@ public class BeatScroller : MonoBehaviour
     public void BeatHit(int Multiplier)
     {
         Score += ScorePerBeat * Multiplier;
-        ScoreText.text = "Очки: " + Score;
+        ScoreText.text = ScoreLocalize + Score;
         ButtonPressTime.Add(NumBeats * time - timeLeft);
         ButtonPressClass.Add(Multiplier);
         if (NumBeatsPressed > 0)

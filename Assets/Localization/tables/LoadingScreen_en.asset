@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: LoadingScreen_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 598c0e15dd371d84f849012145384113, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 63717371904
+    m_Localized: LOADING
+    m_Metadata:
+      m_Items: []
+  - m_Id: 680611409920
+    m_Localized: 'Interesting fact: The use of stimulants improves the skills of
+      respondents by an average of 25%.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 632108478464
+    m_Localized: 'Tip: Before you rescue the victim, make sure that nothing threatens
+      your safety.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 662072586240
+    m_Localized: 'Tip: Keep your arms and back straight. Your position should be
+      comfortable and functional.'
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 1

@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: BPMTrain_ru
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: ru
+  m_SharedData: {fileID: 11400000, guid: 18e1e4122de7037448b6ce75e535761d, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 25117192192
+    m_Localized: "\u041D\u0430\u0436\u043C\u0438\u0442\u0435 \u043F\u0440\u043E\u0431\u0435\u043B
+      \u0447\u0442\u043E\u0431\u044B \u043D\u0430\u0447\u0430\u0442\u044C."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 330978422784
+    m_Localized: "\u041E\u0447\u043A\u0438: "
+    m_Metadata:
+      m_Items: []
+  - m_Id: 411668443136
+    m_Localized: "\u0420\u0415\u0417\u0423\u041B\u042C\u0422\u0410\u0422\u042B"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 586570919936
+    m_Localized: "\u0421\u0440\u0435\u0434\u043D\u044F\u044F \u0447\u0430\u0441\u0442\u043E\u0442\u0430: "
+    m_Metadata:
+      m_Items: []
+  - m_Id: 662047420416
+    m_Localized: "\u0421\u0440\u0435\u0434\u043D\u044F\u044F \u0433\u043B\u0443\u0431\u0438\u043D\u0430: "
+    m_Metadata:
+      m_Items: []
+  - m_Id: 684700856320
+    m_Localized: "\u041D\u0430\u0437\u0430\u0434"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 1

@@ -33,6 +33,18 @@ MonoBehaviour:
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-en
+  - m_GUID: 1896b686e4d0b7d4db6788606ef2ce95
+    m_Address: LoadingScreen_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Preload
+  - m_GUID: c9fd4d3c9a5c7a249bb5b23e9c7e9146
+    m_Address: BPMTrain_en
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Preload
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 22d7280bf221fd34bbf3db309ec82475, type: 2}
   m_SchemaSet:

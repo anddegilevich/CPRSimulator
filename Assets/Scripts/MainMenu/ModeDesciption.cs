@@ -3,22 +3,19 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.Localization.Settings ;
 
 public class ModeDesciption : MonoBehaviour
 {
-    public string Description;
+    private string Description;
+    public string IDDescription;
     public TMP_Text Text;
     public Image Image;
     public Sprite Sprite;
     // Start is called before the first frame update
-    void Start()
+    void OnEnable()
     {
-        
-    }
-
-    void Update()
-    {
-
+        Description = LocalizationSettings.StringDatabase.GetLocalizedString("LocalizationMainMenu", IDDescription);
     }
     public void ChangeDescription()
     {

@@ -180,5 +180,17 @@ MonoBehaviour:
       the discharge, continue the CPR in a ratio of 30 to 2.'
     m_Metadata:
       m_Items: []
+  - m_Id: 2588495371169792
+    m_Localized: OPTIONS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2588499439644672
+    m_Localized: LANGUAGE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2596638260064256
+    m_Localized: Back
+    m_Metadata:
+      m_Items: []
   references:
     version: 1

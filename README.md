@@ -24,13 +24,13 @@ In addition to the immersive effect obtained through virtual reality, the game f
 
 ## Screenshots
 <p float="left">
-  <img src="Screenshots/Screenshot1.JPG" width="500" />
-  <img src="Screenshots/Screenshot2.JPG" width="500" /> 
+  <img src="Screenshots/Screenshot1.JPG" width="400" />
+  <img src="Screenshots/Screenshot2.JPG" width="400" /> 
 </p>
 
 <p float="left">
-  <img src="Screenshots/Screenshot3.jpg" width="500" />
-  <img src="Screenshots/Screenshot4.jpg" width="500" /> 
+  <img src="Screenshots/Screenshot3.jpg" width="400" />
+  <img src="Screenshots/Screenshot4.jpg" width="400" /> 
 </p>
 
 ## Project properties

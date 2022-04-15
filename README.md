@@ -37,6 +37,6 @@ In addition to the immersive effect obtained through virtual reality, the game f
 
 <b>Unity version:</b> 2020.3.23  
 <b>Supported VR technologies:</b> Steam VR  
-<b>Developers  VR Setup:</b> HTC Vive Pro; HTC Vive Tracker 3.0; HTC Vive Base Station 1.0  
+<b>Developer's VR Setup:</b> HTC Vive Pro; HTC Vive Tracker 3.0; HTC Vive Base Station 1.0  
 <b>Supported languages:</b> English (EN), Russian (RU)  
 <b>Licence:</b> Creative Commons Zero v1.0 Universal
